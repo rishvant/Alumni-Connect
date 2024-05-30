@@ -1,0 +1,89 @@
+.main-head{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 10vh;
+    height: fit-content;
+    justify-content: center;
+}
+
+.main-head h1{
+    color: black;
+}
+
+.main-head .item{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+}
+
+.main-head .item .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.main-head .item .animate{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1;
+}
+
+.main-head .item h2{
+    width: 100%;
+    text-align: center;
+}
+
+.main-head .item img{
+    width: 70%;
+    height: fit-content;
+}
+
+.main-head .item .content{
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+}
+
+.main-head .item .content ul{
+    margin-top: 5%;
+    color: rgb(29, 29, 168);
+    line-height: 5vh;
+}
+
+.main-head .partition{
+    height: 5px;
+    max-width: 80%;
+    background-color: black;
+    border-radius: 25px;
+    animation: full 2s forwards;
+}
+
+@keyframes full {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .main-head .item{
+    flex-direction: column;
+    gap: 0vh;
+}
+.main-head .item .animate {
+    justify-content: center;
+    align-items: center;
+}
+.main-head h1{
+    margin-bottom: 5vh;
+}
+}

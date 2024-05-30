@@ -1,0 +1,172 @@
+/* 
+---------------------------------------------
+global styles
+--------------------------------------------- 
+*/
+::selection {
+  background: #ed563b;
+  color: #fff;
+}
+
+::-moz-selection {
+  background: #ed563b;
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  html, body {
+    overflow-x: hidden;
+  }
+  .mobile-top-fix {
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+  .mobile-bottom-fix {
+    margin-bottom: 30px;
+  }
+  .mobile-bottom-fix-big {
+    margin-bottom: 60px;
+  }
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.section-heading h2 {
+  font-size: 28px;
+  font-weight: 800;
+  color: #232d39;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.section-heading h2 em {
+  font-style: normal;
+  color: #ed563b;
+}
+
+.section-heading img {
+  margin: 20px auto;
+}
+
+.dark-bg h2 {
+  color: #fff;
+}
+
+.dark-bg p {
+  color: #fff;
+}
+
+.main-button a {
+  display: inline-block;
+  font-size: 15px;
+  padding: 12px 20px;
+  background-color: #ed563b;
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+  text-transform: uppercase;
+  transition: all .3s;
+}
+
+.main-button a:hover {
+  background-color: #f9735b;
+}
+
+
+/* 
+---------------------------------------------
+trainers
+--------------------------------------------- 
+*/
+#trainers .trainer-item {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  padding: 30px;
+  margin-top: 8%;
+}
+#trainers .row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#trainers .trainer-item img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border: 12px solid #1a76d1;
+}
+
+#trainers .trainer-item span {
+  font-size: 15px;
+  font-weight: 500;
+  color: #ed563b;
+  display: inline-block;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+#trainers .trainer-item h4 {
+  font-size: 19px;
+  font-weight: 600;
+  color: #232d39;
+  letter-spacing: 0.5px;
+  margin-bottom: 18px;
+}
+
+#trainers .trainer-item p {
+  margin-bottom: 20px;
+}
+
+#trainers .trainer-item ul.social-icons li {
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.company{
+  float: right;
+}
+
+#trainers .trainer-item ul.social-icons li:last-child {
+  margin-right: 0px;
+}
+
+#trainers .trainer-item ul.social-icons li a {
+  color: #232d39;
+  transition: all .3s;
+}
+
+#trainers .trainer-item ul.social-icons li a:hover {
+  color: #ed563b;
+}
+
+
+
+/* 
+---------------------------------------------
+footer
+--------------------------------------------- 
+*/
+footer {
+  text-align: center;
+  padding: 30px 0px;
+}
+
+footer p {
+  color: #232d39;
+  font-size: 13px;
+}
+
+footer p a {
+  cursor: pointer;
+  color: #ed563b;
+}
+
+footer p a:hover {
+  color: #ed563b;
+}
